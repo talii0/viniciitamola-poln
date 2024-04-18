@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.a1{
+    background-color: #fbfbfb;
+}
+.roof img{
+    width: 100%;
+}
+.pack1{
+    padding:0 ;
+}
+.pack1 img{
+    width: 100%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.botn img{
+    width: 100%;
+}
+.pp2{
+    margin: 0 ;
+    font-size: 28px;
+    color: rgb(29, 29, 29);
+    
+    font-weight: bold;
+    padding: 14px ;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.pp2 img{
+    width: 80px;
+    margin-right: 15px;
+}
+
+.botn{
+    
+    border-radius: 18px;
+    margin: 30px 0;
+    display: grid;
+    justify-content: center;
+}
+
+button{
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(72, 154, 255);
+    color: white;
+    justify-self: center;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.boot img{
+    margin-top: 100px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/*  */
+.pp1{
+    margin: 0 30px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.pp3 img{
+    width: 100%;
+}
+.img2 img{
+    width: 100%;
+}
+.img2{
+    padding: 0 10px;
+}
+
+.kolch{
+    padding: 15px 10px;
+}
+
+input{
+    margin-top: 10px;
+    border: 1px solid #737373 !important;
+border-radius: 1px;
+
+display: block;
+font-size: 14px;
+font-weight: 400;
+height: 45px;
+
+
+transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+margin-bottom: 17px;
+width: 100%;
+outline: none;
+color: #585858;
+padding: 6px 12px 7px;
+}
+input:focus{
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+}
+
+
+.inp1::placeholder{
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+
+.inp3{
+    width: 130px;
+}
+
+.ccimg{
+    
+    padding: 0 15px;
+    margin-bottom: 50px;
+}
+.ccimg img{
+    width: 100%;
+    margin-top: 30px;
+}
+.ccimg2{
+    margin-left: 23px;
+    
+}
+
+
+.section1{
+    padding: 10px 20px;
+}
+.section1 span{
+    color: red;
+}
+
+.btn2{
+    background: rgb(201 39 39);
+    color: #fff;
+    
+}
+.p-0{
+    font-weight: 600;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.pp4{
+    color: rgb(103, 103, 103);
+    margin-bottom: 25px;
+    font-weight: 500;
+}

